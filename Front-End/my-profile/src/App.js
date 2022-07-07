@@ -28,7 +28,7 @@ function App() {
       .then((res) => res.json())
       .then((data) => setDesc(data));
   }, []);
-
+  console.log(name);
   return (
     <div className="age">
       <h1>{name && name.name}</h1>
