@@ -1,4 +1,4 @@
-import { infoService } from "./infoService/GetInfo";
+import { infoService } from "./components/infetch/getInfo";
 import { useEffect, useState } from "react";
 function App() {
   const [name, setName] = useState();
