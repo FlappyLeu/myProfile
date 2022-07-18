@@ -1,0 +1,9 @@
+<div style="display: flex; justify-content: space-evenly">
+  <%data.text.forEach((item)=>{ %>
+  <p><%=item%></p>
+  <% });%>
+</div>
+<div style="display: flex; justify-content: space-evenly">
+  <%data.image.forEach((item)=>{ %>
+  <img src="<%=item%>" alt="" style="width: 20%" /> <% });%>
+</div>
